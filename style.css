@@ -26,6 +26,11 @@ button {
   border: none;
   border-radius: 100px;
   margin-top: 20px;
+  cursor: pointer;
+}
+
+button:active {
+  background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 .main-body {
