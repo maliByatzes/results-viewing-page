@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* color: hsl(0, 0%, 100%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.main-body {
+  display: flex;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 26px;
+}
+
+.result-body {
+  background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 26px;
+  padding: 20px;
+}
+
+.circle-body {
+  background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.great-text {
+  margin-bottom: 20px;
+}
+
+.summary-body {
+   padding: 30px;
+}
+
+.reaction-body {
+  background-color: hsl(0, 100%, 67%);
+}
+
+.memory-body {
+  background-color: hsl(39, 100%, 56%);
+}
+
+.verbal-body {
+  background-color: hsl(166, 100%, 37%);
+}
+
+.visual-body {
+  background-color: hsl(234, 85%, 45%);
+}
